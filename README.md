@@ -74,7 +74,7 @@ The dataset has the following format:
 |   |-- EgoMem.json
 ```
 
-After splicing the downloaded EgoLife video resources by date, place them into the `videos` folder. The `annos` folder contains detailed data annotations, and `EgoMem.json` is the Q&A pairs used for evaluation. The Q&A pair has the following format:
+After splicing the downloaded EgoLife video resources by date, place them into the `videos` folder. (**Note: I have uploaded the spliced daily videos to the [ModelScope](https://www.modelscope.cn/datasets/jlongzuo/EgoLife_Daily/) repository for your convenience.**) The `annos` folder contains detailed data annotations, and `EgoMem.json` is the Q&A pairs used for evaluation. The Q&A pair has the following format:
 
 ```
 {
@@ -91,8 +91,6 @@ After splicing the downloaded EgoLife video resources by date, place them into t
     "answer": "B"
 }
 ```
-
-Note: Since the EgoLife Huggingface provides fragmented video clips that are not spliced into full-day recordings, **I will gradually upload the spliced videos to the EgoMem repository over the next few days** for your convenience. Stay tuned!
 
 ## Acknowledgements
 We thank these great works and open-source repositories: [Qwen](https://github.com/QwenLM/Qwen3-VL), [DeepSeek](https://github.com/deepseek-ai), [EgoLife](https://github.com/EvolvingLMMs-Lab/EgoLife), [LVBench](https://github.com/zai-org/LVBench), [Video-MME](https://github.com/MME-Benchmarks/Video-MME) and [MLVU](https://github.com/JUNJIE99/MLVU).
